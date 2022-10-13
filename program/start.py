@@ -80,7 +80,7 @@ async def start_(client: Client, message: Message):
                         "‹ قناة المطور › ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "‹ لبوت للمطور ›", url=f"https://t.me/rcrcu"
+                        "‹ لبوت للمطور ›", url=f"https://t.me/B_B80"
                     ),
                 ],
                 [
@@ -97,15 +97,15 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["بوت", f"", f"", f"البوت"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/0c4352a3255a8ee09ce72.jpg",
-        caption=f""" [المطور الاساسي](https://t.me/rcrcu) \n\n""",
+        photo=f"https://telegra.ph/file/f8af83e64d096de9b12cb.jpg",
+        caption=f""" 𓊈 الـ꯭ـ͜͝ت꯭لي꯭ڪ꯭ࢪآم꯭ مـ֧֯ا꯭ ي꯭صن꯭ِع ꯭زلـ꯭مِ ل꯭لتذ꯭ِکي꯭ࢪ ꯭فق꯭ـ֧ط @B_B40 \n\n""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
             ],
             [
                 InlineKeyboardButton(
-                    "Me bot Music", url=f"https://t.me/cncebot"
+                    "Me bot Music", url=f"https://t.me/O1llbot"
                 ),
             ],
             [
@@ -131,6 +131,26 @@ async def help(client: Client, message: Message):
             ],
             [
                 InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+            ]
+         ]
+     )
+  )
+
+@Client.on_message(command(["مساعد المطور", f"المساعد", f"", f"مساعد"]) & filters.group & ~filters.edited)
+async def start(client: Client, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/f8af83e64d096de9b12cb.jpg",
+        caption=f""" " strong, thanks to God" (@nxnn0) (@Ffeeeie)(@Eivrr) \n\n""",
+        reply_markup=InlineKeyboardMarkup(
+         [
+            [
+            ],
+            [
+                InlineKeyboardButton(
+                    "مساعد المطور", url=f"https://t.me/rcrcu"
+                ),
+            ],
+            [
             ]
          ]
      )
@@ -192,7 +212,7 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("‹ المطور ›", url=f"https://t.me/rcrcu"),
+                            InlineKeyboardButton("‹ المطور ›", url=f"https://t.me/B_B80"),
                             InlineKeyboardButton("‹ قناة المطور ›", url=f"https://t.me/{GROUP_SUPPORT}")
                         ],
                         [
