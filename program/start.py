@@ -98,7 +98,10 @@ async def start_(client: Client, message: Message):
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/f8af83e64d096de9b12cb.jpg",
-        caption=f""" 𓊈 الـ꯭ـ͜͝ت꯭لي꯭ڪ꯭ࢪآم꯭ مـ֧֯ا꯭ ي꯭صن꯭ِع ꯭زلـ꯭مِ ل꯭لتذ꯭ِکي꯭ࢪ ꯭فق꯭ـ֧ط @B_B40 \n\n""",
+        caption=f"""\n\n Music program to play songs in groups  .
+
+helper account : @ASSISTANT_5
+Developer : @B_B80 """,
         reply_markup=InlineKeyboardMarkup(
          [
             [
@@ -119,7 +122,8 @@ async def start(client: Client, message: Message):
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{DEV_PHOTO}",
-        caption=f"""◍  :  مطور السورس \n\n√""",
+        caption=f""" helper account : @ASSISTANT_5
+Developer : @B_B80 \n\n√""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
