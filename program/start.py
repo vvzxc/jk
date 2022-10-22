@@ -80,7 +80,7 @@ async def start_(client: Client, message: Message):
                         "‹ قناة المطور › ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "‹ لبوت للمطور ›", url=f"https://t.me/B_B80"
+                        "‹ لبوت للمطور ›", url=f"https://t.me/IYlYI1"
                     ),
                 ],
                 [
@@ -122,8 +122,8 @@ Developer : @B_B80 """,
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{DEV_PHOTO}",
-        caption=f""" helper account : @ASSISTANT_5
-Developer : @B_B80 \n\n√""",
+        caption=f""" helper account : playr8
+Developer : @IYlYI1 \n\n√""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
@@ -216,7 +216,7 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("‹ المطور ›", url=f"https://t.me/B_B80"),
+                            InlineKeyboardButton("‹ المطور ›", url=f"https://t.me/IYlYI1"),
                             InlineKeyboardButton("‹ قناة المطور ›", url=f"https://t.me/{GROUP_SUPPORT}")
                         ],
                         [
